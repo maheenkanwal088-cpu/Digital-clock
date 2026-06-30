@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #0b0c10;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.clock-container {
+    background: #1f2833;
+    padding: 30px 50px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5), inset 0 0 15px rgba(102, 252, 241, 0.2);
+    border: 1px solid #45a29e;
+    text-align: center;
+}
+
+.date {
+    color: #66fcf1;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.time-wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 15px;
+}
+
+.time {
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0 0 20px rgba(102, 252, 241, 0.6);
+}
+
+.format {
+    color: #66fcf1;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
